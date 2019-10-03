@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var sqlite3 = require('sqlite3').verbose();
-const database = '../players_and_masters.db';
+const database = './players_and_masters.db';
 var bcrypt = require('bcrypt-nodejs');
 
 const userController = require('../controller/user');
